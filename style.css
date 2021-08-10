@@ -1,0 +1,41 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+   background-color: #FFFFFF; 
+   font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.nav-heading-container{
+    display: flex;
+}
+.nav-heading{
+    align-self: center;
+    padding: 20px;
+    font-size: 24px;
+}
+.nav-links{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+.blog-button{
+    background-color: #2D81FF;
+    border: none;
+    padding: 11px;
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
