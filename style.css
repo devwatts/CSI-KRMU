@@ -69,3 +69,6 @@ width: 80%;
     max-width: 100%;
     border-radius: 40px;
 }
+#carousel-container{
+    height: 300px;
+}
