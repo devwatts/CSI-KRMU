@@ -74,3 +74,43 @@ width: 80%;
 .owl-dots{
     display: none;
 }
+
+.mission-container{
+    padding: 100px;
+}
+
+.mission-heading{
+    text-align: center;
+}
+
+.mission-image-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mission-image-text p{
+width: 50%;
+}
+
+.mission-image-text img{
+    height: 240px;
+    width: 265px;
+    border-radius: 100%;
+}
+
+
+
+.upcoming-events-heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upcoming-events-image img{
+    height: 350px;
+    width: auto !important;
+    max-width: 100%;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
