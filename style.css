@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Noto+Sans+JP:wght@500&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.main-heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.krmu-logo{
+    padding: 0 10px 0 0;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+.navitems{
+    display: flex;
+}
+.navitems a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: #6f7a88;
+
+}
+.navitems :hover{
+    color: black;
+}
+.main-heading-container{
+    display: flex;
+}
+.blog-button button{
+    background-color: #3c87ff;
+    width: 130px;
+    height: 38px;
+    border-radius: 50px;
+    color: white;
+    border: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.blog-button button:hover{
+    background-color: #1f6ff1;
+}
+.about-krmu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+.about-text-content{
+    width: 500px;
+    height: 150px;
+}
+.about-text-content h2{
+    text-align: center;
+}
+.about-text-content p{
+    color: #57616e;
+}
+/* .about-img-content img{
+    width: 600px;
+    height: 330px;
+    border-radius: 40px;
+} */
+
+
+/*       slider        */
+
+.owl-1{
+    width: 600px;
+    height: 330px;
+    border-radius: 40px;
+}
+.owl-1 div{
+    color: white;
+    width: 600px;
+    height: 330px;
+}
+.owl-1 img{
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.about-mission h2{
+    text-align: center;
+}
+.about-mission-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-mission-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+.about-mission-text{
+    width: 500px;
+    height: 150px;
+    color: #57616e;
+}
+
+
+
+.upcoming-events h2{
+    text-align: center;
+}
+.owl-2{
+    width: 100%;
+    background-color: white;
+}
+.owl-2 img{
+    width: auto !important;
+    max-width: 100%;
+    height: 350px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
