@@ -1,0 +1,19 @@
+$('.owl-1').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    items:1,
+    autoplay:true,
+autoplayTimeout:3000,
+autoplayHoverPause:true
+})
+
+$('.owl-2').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    items:4,
+    autoplay:true,
+autoplayTimeout:3000,
+autoplayHoverPause:true
+})
