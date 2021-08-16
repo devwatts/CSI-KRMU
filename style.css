@@ -7,36 +7,35 @@
 body{
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-}
-.main-heading-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.krmu-logo{
-    padding: 0 10px 0 0;
-}
+background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1) 100%);
 
+}
 .navbar{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:10px;
+    padding:15px;
 }
+.nav-heading-container{
+    display: flex;
+}
+.nav-heading{
+    font-size: 24px;
+    padding: 20px;
+    align-self: center;
+}
+
 .navitems{
     display: flex;
 }
 .navitems a{
     text-decoration: none;
-    padding: 0 20px;
+    margin: 20px;
     color: #6f7a88;
 
 }
 .navitems :hover{
     color: black;
-}
-.main-heading-container{
-    display: flex;
 }
 .blog-button button{
     background-color: #3c87ff;
@@ -44,13 +43,11 @@ body{
     height: 38px;
     border-radius: 50px;
     color: white;
-    border: 0;
+    border: none;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 15px;
+    letter-spacing: 1px;
     cursor: pointer;
-}
-.blog-button button:hover{
-    background-color: #1f6ff1;
 }
 .about-krmu{
     display: flex;
@@ -68,11 +65,29 @@ body{
 .about-text-content p{
     color: #57616e;
 }
-/* .about-img-content img{
-    width: 600px;
+.about-text-content button{
+    width: 140px;
+    border-radius: 25px;
+    color: white;
+    background-color: #2D81FF;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    display: block;
+    margin: 20px auto 0 auto;
+
+}
+.about-img-content{
+    width: 50%;
+}
+.about-img-content img{
+    width: auto !important;
     height: 330px;
+    max-width: 100%;
     border-radius: 40px;
-} */
+}
+
 
 
 /*       slider        */
@@ -93,23 +108,24 @@ body{
     height: 100%;
     cursor: pointer;
 }
-
-.about-mission h2{
+.about-mission{
+    padding: 100px;
+}
+.mission-heading{
     text-align: center;
 }
-.about-mission-content{
+.mission-image-text{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
-.about-mission-img img{
-    width: 250px;
-    height: 250px;
+.mission-image-text img{
+    width: 265px;
+    height: 240px;
     border-radius: 100%;
 }
-.about-mission-text{
-    width: 500px;
-    height: 150px;
+.mission-image-text p{
+    width: 50%;
     color: #57616e;
 }
 
@@ -117,16 +133,55 @@ body{
 
 .upcoming-events h2{
     text-align: center;
+    margin-bottom: 20px;
 }
-.owl-2{
-    width: 100%;
-    background-color: white;
-}
-.owl-2 img{
+.upcoming-events-image img{
     width: auto !important;
     max-width: 100%;
     height: 350px;
     border-radius: 40px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.footer{
+    display: flex;
+    background-color: #2D81FF;
+    color: white !important;
+    justify-content: space-between;
+    padding: 40px 80px 40px 80px;
+    margin-top: 100px;
+}
+.left-footer img{
+height: 125px;
+width: 125px;
+margin-bottom: 20px;
+}
+
+.useful-links{
+    display: flex;
+    flex-direction: column;
+}
+.useful-links a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.socials img{
+margin: 10px;
+}
+
+
+
+/* join us button animation */
+.btn-animation{
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+.btn-animation:hover{
+    transform: scale(1.1);
+    box-shadow:inset 0px 0px 0px 3px #2D81FF;
+    background-color: #f9f8f8;
+    color: black;
 }
