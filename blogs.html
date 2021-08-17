@@ -1,1 +1,217 @@
-<!--FIle for team 2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs Page</title>
+    <style>
+
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    /* background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1) 100%); */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.nav-heading-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-heading-logo img{
+    padding-right: 15px;
+}
+.nav-links a{
+    text-decoration: none;
+    padding: 0 15px;
+    color: #57616e;
+    cursor: pointer;
+}
+.nav-links a:hover{
+    color: black;
+}
+.blog-button{
+    width: 140px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: #3c87ff;
+    border: none;
+    color: white;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.blog-container{
+    margin: 50px;
+}
+.blog-content1{
+    background-color: antiquewhite;
+    margin: 35px;
+    border-radius: 120px 0 120px 0;
+    box-shadow: 20px 20px 20px grey;
+}
+.main-content{
+    display: flex;
+    padding: 40px;
+}
+.main-content img{
+    border-radius: 30px;
+}
+.main-content p{
+    padding-left: 50px;
+}
+
+.blog-content2{
+    background-color: #A3EB78;
+    margin: 35px;
+    border-radius: 120px 0 120px 0;
+    box-shadow: 20px 20px 20px grey;
+}
+.blog-content3{
+    background-color: #EB8F8F;
+    margin: 35px;
+    border-radius: 120px 0 120px 0;
+    box-shadow: 20px 20px 20px grey;
+}
+
+
+
+/* animation for blog box*/
+.blog-content-box{
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.blog-content-box:hover{
+    transform: scale(1.03);
+}
+
+/* animation for blog button */
+.blog-button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 0px 3px #3c87ff;
+    transform: scale(1.1);
+}
+
+.footer{
+    display: flex;
+    background-color: #2D81FF;
+    color: white !important;
+    justify-content: space-between;
+    padding: 40px 80px 40px 80px;
+    margin-top: 100px;
+}
+.left-footer img{
+height: 125px;
+width: 125px;
+margin-bottom: 20px;
+}
+
+.useful-links{
+    display: flex;
+    flex-direction: column;
+}
+.useful-links a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.socials img{
+margin: 10px;
+}
+    </style>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  
+  
+  
+  
+</head>
+<body>
+   <div class="navbar">
+       <div class="nav-heading-logo">
+           <img src="img\csi-logo.png" alt="csi logo" width="75px" height="75px">
+           <h2>CSI KRMU</h2>
+       </div>
+       <div class="nav-links">
+           <a href="#">Upcoming Events</a>
+           <a href="#">Contact Us</a>
+           <a href="#">Prize Distribution</a>
+       </div>
+       <div class="nav-btn">
+           <button class="blog-button btn-animation">BLOG</button>
+       </div>
+   </div>
+
+   <div class="blog-image">
+      <img src="img\Picture1.jpg" alt="blog" width="100%" height="500px">
+   </div>
+
+
+   <div class="blog-container">
+      <div class="blog-title">
+          <h1>1).Grab An Internship</h1></div>
+          <div class="blog-content1 blog-content-box">
+              <div class="main-content">
+              <img src="img\coding.gif" alt="" width="240px" height="150px">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque mollitia dolorem iure dolores. Officiis, delectus nihil rem reprehenderit neque cum animi illum velit mollitia laborum sequi itaque nostrum omnis molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat molestiae dignissimos corporis possimus aperiam a deserunt id dicta fugit minima hic eligendi ea excepturi nulla, culpa asperiores nemo ipsum adipisci! Quo enim asperiores laboriosam odit cupiditate magni illum impedit unde facilis voluptate vel exercitationem ratione reiciendis sint accusamus, quia quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus sit tempore error, numquam nesciunt exercitationem modi laboriosam fuga assumenda similique ad atque sunt, quibusdam omnis eveniet iste minus, eligendi libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quaerat! <a href="#">Read More....</a></p>
+          </div>
+        </div>
+      </div>
+       
+      <div class="blog-container">
+        <div class="blog-title">
+            <h1>2).How to be productive all day!!</h1></div>
+            <div class="blog-content2 blog-content-box">
+                <div class="main-content">
+                <img src="img\coding.gif" alt="" width="240px" height="150px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque mollitia dolorem iure dolores. Officiis, delectus nihil rem reprehenderit neque cum animi illum velit mollitia laborum sequi itaque nostrum omnis molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat molestiae dignissimos corporis possimus aperiam a deserunt id dicta fugit minima hic eligendi ea excepturi nulla, culpa asperiores nemo ipsum adipisci! Quo enim asperiores laboriosam odit cupiditate magni illum impedit unde facilis voluptate vel exercitationem ratione reiciendis sint accusamus, quia quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus sit tempore error, numquam nesciunt exercitationem modi laboriosam fuga assumenda similique ad atque sunt, quibusdam omnis eveniet iste minus, eligendi libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quaerat! <a href="#">Read More....</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-container">
+            <div class="blog-title">
+                <h1>2).How to be productive all day!!</h1></div>
+                <div class="blog-content3 blog-content-box">
+                    <div class="main-content">
+                    <img src="img\coding.gif" alt="" width="240px" height="150px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque mollitia dolorem iure dolores. Officiis, delectus nihil rem reprehenderit neque cum animi illum velit mollitia laborum sequi itaque nostrum omnis molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat molestiae dignissimos corporis possimus aperiam a deserunt id dicta fugit minima hic eligendi ea excepturi nulla, culpa asperiores nemo ipsum adipisci! Quo enim asperiores laboriosam odit cupiditate magni illum impedit unde facilis voluptate vel exercitationem ratione reiciendis sint accusamus, quia quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus sit tempore error, numquam nesciunt exercitationem modi laboriosam fuga assumenda similique ad atque sunt, quibusdam omnis eveniet iste minus, eligendi libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quaerat! <a href="#">Read More....</a></p>
+                </div>
+              </div>
+            </div>
+
+        <div class="footer">
+
+            <div class="left-footer">
+                <img src="img/csi-logo.png" alt="csi-logo">
+                <h2>COMPUTER SOCIETY OF INDIA</h2>
+                <h2>KRMU CHAPTER</h2>
+            </div>
+        
+        
+            <div class="right-footer">
+        
+                <div class="useful-links">
+                    <h2>USEFUL LINKS</h2>
+                    <a href="#">PAST EVENTS</a>
+                    <a href="#">PRIZES AND CERTIFICATES</a>
+                    <a href="#">ABOUT US</a>
+                </div>
+        
+                <div class="socials">
+                    <img src="img/instagram (1).png" alt="">
+                    <img src="img/facebook (1).png" alt="">
+                    <img src="img/linkedin (1).png" alt="">
+                </div>
+            </div>
+        </div>
+</body>
+</html>
