@@ -1,0 +1,277 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  .menu{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .csi-logo-text{
+    display:flex;
+  }
+  .csi-krmu-text{
+    margin-left: 20px;
+  }
+  .link-items{
+    text-decoration: none;
+    padding: 40px;
+    color: black;
+  }
+  .blogs-button{
+    padding: 20px;
+  }
+  .blog-btn{
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius:  30px;
+    color: white;
+    background-color: #0073cf;
+  }
+  
+  
+
+  .heading1{
+      text-align: center;
+  }
+
+  .heading2{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 80px;
+}
+
+
+
+
+          /* <----------------event1------------------------------> */
+
+
+.event1{
+    height: 300px;
+    width:95%;
+    background-color: #76D7C4;
+    color: #273746  ;
+    border-radius: 50px 0px 50px 0px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.poster1{
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.js{
+    position: absolute;
+    top: 0px;
+    right:600px;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+    right:820px;
+}
+
+.para{
+    position: absolute;
+    top: 70px;
+    right:257px;
+}
+
+.point1{
+    position: absolute;
+    top: 140px;
+    right:740px;
+}
+
+.point2{
+    position: absolute;
+    top: 160px;
+    right:340px;
+}
+
+
+         /* <--------------------event2------------------------> */
+
+
+ .event2{
+    height: 300px;
+    width:95%;
+    /* background-color: #76D7C4; */
+    background-color: #58D68D  ;
+    color: #273746  ;
+    border-radius: 0px 50px 0px 50px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+      
+.poster2{
+     border-radius: 20px;
+     position: absolute;
+     top: 20px;
+     right: 50px;
+     
+     
+ }
+      
+ .py{
+   position: absolute;
+   top: 0px;
+   right:600px;
+  }
+      
+ .date2{
+  position: absolute;
+  top: 50px;
+  left:20px;
+  }
+      
+  .para2{
+     position: absolute;
+     top: 70px;
+     left:20px;
+      }
+      
+  .point3{
+    position: absolute;
+   top: 140px;
+   left:20px;
+ }
+      
+  .point4{
+      position: absolute;
+      top: 160px;
+      left:20px;
+   }
+
+
+
+  /* -------------------third---------------------- */
+
+  .third{
+    margin-top: 50px;
+  }
+
+
+
+  .heading3{
+    text-align: center;
+  }
+
+
+
+
+  /* ------------------------past1 opacity------------- */
+  .past1{
+    opacity:0.5;
+  }
+
+
+  /* ------------------------past2 opacity------------- */
+  .past2{
+    opacity:0.5;
+  }
+
+
+  /* ------------------------past3 opacity------------- */
+  .past3{
+    opacity:0.5;
+  }
+
+
+
+
+
+  /* -------------------footer------------------ */
+
+  
+.footer-logo{
+  height:80px;
+  width:80px;
+  margin-left: 30px;
+}
+
+.footer{
+  height:200px;
+  width:100%;
+  background-color: #6AB8EC;
+  padding: 0;
+  margin-top: 100px;
+  position: relative;
+}
+
+
+
+.logo-heading1{
+  color: white;
+  margin-left: 30px;
+}
+
+
+.logo-heading2{
+  color:white;
+  margin-left:  30px;
+  margin-top: -20px;
+}
+
+.logo-heading3{
+  color: white;
+  /* float: right; */
+  margin-left: 85%;
+  margin-top: -150px;
+}
+
+
+.past-events{
+  color: white;
+  margin-left: 85%;
+}
+
+
+.prizes-certificates{
+  color: white;
+  margin-left: 85%;
+}
+
+.about-us{
+  color: white;
+  margin-left:  85%;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+
+.insta{
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  bottom:0px;
+  right:200px;
+}
+
+
+.fb{
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  bottom:1px;
+  right:140px;
+}
+
+
+.ln{
+  height: 50px;
+  width: 60px;
+  position: absolute;
+  bottom:-5px;
+  right:70px;
+}
