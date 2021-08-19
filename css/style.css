@@ -132,6 +132,9 @@ width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
+.owl-nav{
+    display: none;
+}
 
 .footer{
     display: flex;
@@ -175,3 +178,77 @@ margin: 10px;
  color: black;
 }
 /*Animations end*/
+
+
+
+
+/*Responsive Code*/
+@media only screen and (max-width: 850px) {
+    .about-krmu{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .about-image-content img{
+        height: 214px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-text-content{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .about-image-content{
+        width: 100%;
+        
+    }
+    .about-text-content h2{
+        font-size: 19px;
+    }
+    .about-text-content p{
+        width: 80%;
+        font-size: 15px;
+    }
+    .join-us-btn{
+        margin-top: 20px;
+    }
+
+    .mission-image-text{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .mission-image-text p{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .mission-container{
+        padding: 30px;
+    }
+
+    .left-footer{
+        margin-bottom: 20px;
+    }
+    .left-footer h2{
+        font-size: 19px;
+    }
+
+    .left-footer img{
+        height: 90px;
+        width: 90px;
+    }
+
+    .right-footer h2{
+        font-size: 19px;
+    }
+
+    .useful-links a{
+        font-size: 15px;
+    }
+
+    .footer{
+        flex-direction: column;
+        padding: 20px 40px 20px 40px;
+    }
+}
+/*Responsive Code ends*/
