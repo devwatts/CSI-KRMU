@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 body{
     background: rgb(242,0,41);
-    background: linear-gradient(321deg, rgba(242,0,41,0.9) 0%, rgba(249,249,249,1) 100%);
+    background: linear-gradient(321deg, rgba(242,0,41,1) 0%, rgba(249,249,249,1) 85%);
    font-family: 'Roboto', sans-serif;
    
 /*background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1) 100%);*/
