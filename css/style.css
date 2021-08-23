@@ -8,7 +8,7 @@ body{
    background-color: #f9f8f8; 
    font-family: 'Roboto', sans-serif;
    
-background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1) 100%);
+/*background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1) 100%);*/
 }
 
 .navbar{
@@ -16,6 +16,7 @@ background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1
     justify-content: space-between;
     padding: 15px;
     align-items: center;
+    background-color: #ce0023;
 }
 .nav-heading-container{
     display: flex;
@@ -24,6 +25,7 @@ background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1
     align-self: center;
     padding: 20px;
     font-size: 24px;
+    color: white;
 }
 
 .csi-logo{
@@ -31,12 +33,12 @@ background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1
     width: 75px;
 }
 .nav-links{
-    color: black;
+    color: white;
     text-decoration: none;
     margin: 20px;
 }
 .blog-button{
-    background-color: #2D81FF;
+    background-color: #2e5f9b;
     border: none;
     padding: 11px;
     width: 150px;
@@ -55,7 +57,7 @@ background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1
 }
 .join-us-btn{
     padding: 15px;
-    background-color:#2D81FF;
+    background-color:#2e5f9b;
     border: none;
     margin-top: 20px;
     border-radius: 25px;
@@ -99,7 +101,9 @@ width: 80%;
 }
 
 .mission-container{
-    padding: 100px;
+    margin: 25px 0 25px 0;
+    padding: 25px 100px 50px 100px;
+    
 }
 
 .mission-heading{
@@ -143,7 +147,7 @@ width: 50%;
 
 .footer{
     display: flex;
-    background-color: #2D81FF;
+    background-color: #ce0023;
     color: white !important;
     justify-content: space-between;
     padding: 40px 80px 40px 80px;
@@ -178,7 +182,7 @@ margin: 10px;
 .btn-animation:hover{
  /*border: 1px solid #2D81FF;*/
  transform: scale(1.1);
- box-shadow: inset 0px 0px 0px 3px #2D81FF;
+ box-shadow: inset 0px 0px 0px 3px #2e5f9b;
  background-color: #f9f8f8;
  color: black;
 }
@@ -192,6 +196,7 @@ margin: 10px;
 
     .navbar{
         flex-wrap: wrap;
+        margin-bottom: 15px;
     }
 
     .nav-heading-container{
@@ -202,7 +207,7 @@ margin: 10px;
             order: 3;
             margin-left: auto;
             margin-right: auto;
-            padding: 15px 0 15px 0;
+            padding: 15px 0 0px 0;
     }
 
 
@@ -236,7 +241,7 @@ margin: 10px;
         font-size: 19px;
     }
     .about-text-content p{
-        width: 80%;
+        width: 95%;
         font-size: 15px;
     }
     .join-us-btn{
