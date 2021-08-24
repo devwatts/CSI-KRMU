@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs Page</title>
-    <style>
-
-        *{
+    <!-- <link rel="stylesheet" href="blog.css"> -->
+<style>
+    *{
     margin: 0;
     padding: 0;
 }
@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 10px;
 }
 .nav-heading-logo{
     display: flex;
@@ -48,14 +48,14 @@ body{
     transition: all ease-in-out 0.3s;
     cursor: pointer;
 }
+.blog-image img{
+    height: 30vw;
+}
 .blog-container{
-    margin: 50px;
+    margin: 40px;
 }
 .blog-content1{
     background-color: antiquewhite;
-    margin: 35px;
-    border-radius: 120px 0 120px 0;
-    box-shadow: 20px 20px 20px grey;
 }
 .main-content{
     display: flex;
@@ -70,15 +70,9 @@ body{
 
 .blog-content2{
     background-color: #A3EB78;
-    margin: 35px;
-    border-radius: 120px 0 120px 0;
-    box-shadow: 20px 20px 20px grey;
 }
 .blog-content3{
     background-color: #EB8F8F;
-    margin: 35px;
-    border-radius: 120px 0 120px 0;
-    box-shadow: 20px 20px 20px grey;
 }
 
 
@@ -87,6 +81,9 @@ body{
 .blog-content-box{
     transition: all ease-in-out 0.3s;
     cursor: pointer;
+    margin: 35px;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 20px 20px 20px grey;
 }
 .blog-content-box:hover{
     transform: scale(1.03);
@@ -126,13 +123,82 @@ margin-bottom: 20px;
 .socials img{
 margin: 10px;
 }
-    </style>
 
+
+/* Responsive */
+@media only screen and (max-width: 1200px) {
+    
+   .main-content{
+       flex-wrap: wrap;
+       font-size: 12px;
+       justify-content: center;
+       padding: 0 20px 10px 20px;
+   }
+   .main-content img{
+       margin-bottom: 10px;
+   }
+   .blog-title{
+       font-size: 14px;
+   }  
+   .main-content p{
+       padding-left:0px;
+   }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar{
+        padding: 15px;
+    }
+    .nav-heading-logo h2{
+        font-size: 22px;
+    }
+    .nav-heading-logo img{
+        height: 65px;
+        width: 65px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .blog-button{
+        width: 130px;
+    }
+    .blog-container{
+        margin: 24px 40px 50px 40px;
+    } 
+    .blog-title{
+         font-size: 12px;
+     }
+     .blog-content-box{
+         margin: 14px;
+     }
+     .blog-content-box img{
+         width: 220px;
+         height: 130px;
+     }
+     .main-content{
+         font-size: 10px;
+     }
+}
+
+@media only screen and (max-width: 500px) {
+     .blog-container{
+        margin: 24px 20px 50px 20px;
+     }
+     .blog-title{
+         font: 11px;
+     }
+     .blog-content-box img{
+         width: 170px;
+         height: 95px;
+     }
+     .main-content{
+        padding:0 15px 10px 15px;
+     }
+
+}
+</style>
     <!-- <link rel="stylesheet" href="style.css"> -->
-  
-  
-  
-  
 </head>
 <body>
    <div class="navbar">
@@ -151,7 +217,8 @@ margin: 10px;
    </div>
 
    <div class="blog-image">
-      <img src="img\blogimage.jpg" alt="blog" width="100%" height="500px">
+       
+      <img src="img\blogimage.jpg" alt="blog" width="100%" >
    </div>
 
 
