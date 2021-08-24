@@ -8,8 +8,10 @@ body{
     
     
    font-family: 'Roboto', sans-serif;
-   
-background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1) 100%);
+   background: linear-gradient(
+116deg
+,#6772e5 0%,#6772e5 14%,#4de7e7 100%);
+/*background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1) 100%);*/
 }
 
 .navbar{
@@ -23,9 +25,11 @@ background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1
     display: flex;
 }
 .nav-heading{
+    
     align-self: center;
     padding: 20px;
     font-size: 24px;
+    color: white;
     
 }
 
@@ -34,13 +38,13 @@ background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1
     width: 75px;
 }
 .nav-links{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 20px;
     font-size: 18px;
 }
 .blog-button{
-    background-color: #2D81FF;
+    background-color: #eb3f3d;
     border: none;
     padding: 11px;
     width: 150px;
@@ -58,8 +62,8 @@ background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1
     align-items: center;
 }
 .join-us-btn{
-    padding: 15px;
-    background-color: #2D81FF;
+    padding: 10px;
+    background-color:#eb3f3d;
     border: none;
     margin-top: 20px;
     border-radius: 25px;
@@ -79,6 +83,7 @@ background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1
 }
 .about-text-content h2{
 text-align: center;
+color: white;
 }
 .mb-10{
     margin-bottom: 10px;
@@ -87,10 +92,12 @@ text-align: center;
     margin-left: auto;
     margin-right: auto;
 width: 80%;
+color: white;
 }
 
 .about-image-content{
     width: 50%;
+    z-index: 2;
 }
 
 .main-carousel{
@@ -103,25 +110,54 @@ width: 80%;
     max-width: 100%;
     box-shadow: 10px 10px 5px grey;
     border-radius: 40px;
+    z-index: 2;
 }
 .owl-dots{
     display: none;
 }
+.white-skew{
+    position: absolute;
+    top: 380px;
+    background: white;
+    width: 100%;
+    z-index: -1;
+    transform: skewY(-11deg);
+    height: 600px;
+}
+
+.white-skew-2{
+    position: absolute;
+    margin-top: -40px;
+    background: white;
+    width: 100%;
+    z-index: -1;
+    transform: skewY(-11deg);
+    height: 120px;
+}
 
 .mission-container{
     margin: 25px 0 25px 0;
-    padding: 25px 150px 50px 150px;
     
+    z-index: 2;
+}
+.mission-text-content{
+    padding: 25px 150px 50px 150px;
 }
 
 .mission-heading{
     text-align: center;
+z-index: 2;
+
+}
+.mission-heading h2{
+    z-index: 2;
 }
 
 .mission-image-text{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 }
 
 .mission-text{
@@ -135,15 +171,17 @@ border-radius: 20px;
     height: 240px;
     width: 265px;
     border-radius: 100%;
+    z-index: 2;
 }
 
 .upcoming-events{
-    margin-top: 80px;
+    margin-top: 180px;
 }
 
 .upcoming-events-heading{
     text-align: center;
     margin-bottom: 20px;
+    color: white;
 }
 
 .upcoming-events-image img{
@@ -157,21 +195,22 @@ border-radius: 20px;
 .event-carousel{
     text-align: center;
     margin: 10px;
+    color: white;
 }
 
 .owl-next span{
     font-size: 45px;
-    padding: 20px;
+    padding:0 10px 0 10px;
 }
 .owl-prev span{
-    padding: 20px;
+    padding:0 10px 0 10px;
     font-size: 45px;
 }
 
 .footer{
     display: flex;
-    background-color: #2D81FF;
-    color: white !important;
+    background-color: #ecf8fc;
+    color: black;
     justify-content: space-between;
     padding: 40px 80px 40px 80px;
     margin-top: 100px;
@@ -188,7 +227,7 @@ margin-bottom: 20px;
 }
 .useful-links a{
     text-decoration: none;
-    color: white;
+    color: black;
     margin: 10px;
 }
 .socials img{
@@ -243,7 +282,7 @@ margin: 10px;
     }
 
     .about-krmu{
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 20px;
         padding-top: 0;
     }
@@ -281,11 +320,9 @@ margin: 10px;
         font-size: 15px;
     }
 
-    .mission-container{
+    .mission-text-content{
         padding: 20px;
-        background: white;
-    border-radius: 20px;
-    margin: 25px;
+        background: white; 
 
     }
 
@@ -310,8 +347,10 @@ margin: 10px;
     }
 
     .footer{
+        background-color: #ecf8fc;
         flex-direction: column;
         padding: 20px 40px 20px 40px;
+        color: black;
     }
 }
 
