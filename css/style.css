@@ -5,11 +5,11 @@ box-sizing: border-box;
 }
 
 body{
-    background: rgb(242,0,41);
-    background: linear-gradient(321deg, rgba(242,0,41,1) 0%, rgba(249,249,249,1) 85%);
+    
+    
    font-family: 'Roboto', sans-serif;
    
-/*background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1) 100%);*/
+background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1) 100%);
 }
 
 .navbar{
@@ -17,7 +17,7 @@ body{
     justify-content: space-between;
     padding: 15px;
     align-items: center;
-    background-color: #ce0023;
+    
 }
 .nav-heading-container{
     display: flex;
@@ -26,7 +26,7 @@ body{
     align-self: center;
     padding: 20px;
     font-size: 24px;
-    color: white;
+    
 }
 
 .csi-logo{
@@ -34,12 +34,12 @@ body{
     width: 75px;
 }
 .nav-links{
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 20px;
 }
 .blog-button{
-    background-color: #2e5f9b;
+    background-color: #2D81FF;
     border: none;
     padding: 11px;
     width: 150px;
@@ -58,7 +58,7 @@ body{
 }
 .join-us-btn{
     padding: 15px;
-    background-color:#2e5f9b;
+    background-color: #2D81FF;
     border: none;
     margin-top: 20px;
     border-radius: 25px;
@@ -148,7 +148,7 @@ width: 50%;
 
 .footer{
     display: flex;
-    background-color: #ce0023;
+    background-color: #2D81FF;
     color: white !important;
     justify-content: space-between;
     padding: 40px 80px 40px 80px;
@@ -184,7 +184,7 @@ margin: 10px;
  /*border: 1px solid #2D81FF;*/
  transform: scale(1.1);
  box-shadow: inset 0px 0px 0px 3px #2e5f9b;
- background-color: #f9f8f8;
+ background-color:transparent;
  color: black;
 }
 /*Animations end*/
