@@ -11,7 +11,7 @@ autoplayHoverPause:true
 $('.owl-2').owlCarousel({
     loop:true,
     margin:10,
-    nav:false,
+    nav:true,
     autoplay:true,
 autoplayTimeout:3000,
 autoplayHoverPause:true,
@@ -22,7 +22,7 @@ responsive:{
         nav:true
     },
     600:{
-        items:3,
+        items:2,
         nav:false
     },
     925:{

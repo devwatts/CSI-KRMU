@@ -37,6 +37,7 @@ background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1
     color: black;
     text-decoration: none;
     margin: 20px;
+    font-size: 18px;
 }
 .blog-button{
     background-color: #2D81FF;
@@ -91,10 +92,16 @@ width: 80%;
 .about-image-content{
     width: 50%;
 }
-.about-image-content img{
+
+.main-carousel{
+    padding: 10px;
+}
+
+.main-carousel img{
     height: 350px;
     width: auto !important;
     max-width: 100%;
+    box-shadow: 10px 10px 5px grey;
     border-radius: 40px;
 }
 .owl-dots{
@@ -103,7 +110,7 @@ width: 80%;
 
 .mission-container{
     margin: 25px 0 25px 0;
-    padding: 25px 100px 50px 100px;
+    padding: 25px 150px 50px 150px;
     
 }
 
@@ -117,8 +124,11 @@ width: 80%;
     justify-content: space-between;
 }
 
-.mission-image-text p{
-width: 50%;
+.mission-text{
+width: 70%;
+background-color: white;
+padding: 25px;
+border-radius: 20px;
 }
 
 .mission-image-text img{
@@ -127,7 +137,9 @@ width: 50%;
     border-radius: 100%;
 }
 
-
+.upcoming-events{
+    margin-top: 80px;
+}
 
 .upcoming-events-heading{
     text-align: center;
@@ -142,8 +154,18 @@ width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
-.owl-nav{
-    display: none;
+.event-carousel{
+    text-align: center;
+    margin: 10px;
+}
+
+.owl-next span{
+    font-size: 45px;
+    padding: 20px;
+}
+.owl-prev span{
+    padding: 20px;
+    font-size: 45px;
 }
 
 .footer{
@@ -260,7 +282,11 @@ margin: 10px;
     }
 
     .mission-container{
-        padding: 30px;
+        padding: 20px;
+        background: white;
+    border-radius: 20px;
+    margin: 25px;
+
     }
 
     .left-footer{
