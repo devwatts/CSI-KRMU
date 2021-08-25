@@ -76,24 +76,27 @@
  /* -----------------------event1---------------- */
   .event1{
     display: flex;
-    height: 300px;
+    /* flex-wrap: wrap; */
+    height: fit-content;
     width:95%;
     align-items: center;
     justify-content: space-evenly;
     background-color: #C5E4F9;
     color: #273746  ;
     border-radius: 50px 0px 50px 0px;
-    margin-left: 30px;
+    padding: 20px;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .event1 h2{
     /* text-align: center; */
-    margin-top: -80px;
+
   }
 
   .event1-text{
-    margin-left: 50px;
+    width: 40%;
   }
 
   .downblue{
@@ -101,7 +104,7 @@
   }
 
   .poster1{
-    height:250px;
+     height:auto;
     align-items: center;
     border-radius: 20px;
   }
@@ -109,36 +112,33 @@
  /* --------------------------event2------------------- */
   .event2{
     display: flex;
+    flex-direction: row-reverse;
     margin-top: 50px;
-    height: 300px;
+    /* height: 300px; */
     width:95%;
     align-items: center;
     justify-content: space-evenly;
     background-color: #C4F9BD ;
     color: #273746  ;
     border-radius: 0px 50px 0px 50px;
-    margin-left: 30px;
-    margin-top: 50px;
-    /* position:relative; */
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
-  .event2 h2{
-    margin-top: -80px;
-  }
+
 
   .event2-text{
-    margin-left: 50px;
+    width: 40%;
   }
 
-  .downgreen{
-    margin-top: 50px;
-  }
+
 
 
 
   .poster2{
-    height:250px;
+    height: auto;
     border-radius: 20px;
     align-items: center;
   }
@@ -247,77 +247,83 @@ margin: 10px;
   }
 
 
-  @media only screen and (max-width: 1280px) {
-    .downblue{
-      width:80%;
-      margin-left:70px;
+
+  @media only screen and (max-width: 785px) {
+
+
+     .event1-text h2{
+       text-align: center;
+     }
+    .event1{
+      flex-direction: column;
     }
 
-    .event1-text h2{
-      margin-left: 170px;
-      align-content: space-evenly;
-      margin-left: 70px;
+    .event1-text{
+      width: 100%;
     }
 
-    .poster1{
-      margin-left: 50px;
+    .event2-text h2{
+      text-align: center;
     }
 
-  }
-
-
-  @media only screen and (max-width: 1212px) {
-    .event1-text h2{
-      padding-top: 30px;
-    }
-  }
-
-
-  @media only screen and (max-width: 860px) {
-    .poster1{
-      height: 200px;
-      width: 300px;
+    .event2{
+      flex-direction: column;
     }
 
-    .event1-text h2{
-      font-size: 20px;
+    .event2-text{
+      width: 100%;
     }
 
-    .downblue{
-      font-size: 13px;
-    }
-  }
+   }
 
 
 
-@media only screen and (max-width: 845px) {
-  .poster1{
-    height: 200px;
-    width: 300px;
-  }
-  .event1-text h2{
-    padding-top: 55px;
-    margin-right: 30px;
-    font-size: 20px;
-  }
-  .downblue{
-    font-size: 13px;
-    padding-right: 30px;
-  }
+
+     @media only screen and (max-width: 410px) {
+
+
+        .event1{
+          width:90%;
+        }
+       .poster1{
+         height: 200px;
+         width:300px;
+       }
+
+
+
+       .poster2{
+         height: 200px;
+         width:300px;
+       }
+
 }
 
 
-@media only screen and (max-width: 700px){
-  .event1-text h2{
-    margin-top: 40px;
-    margin-left: 20px;
-  }
 
-  .downblue{
-    margin-left: 20px;
-    width: 120%;
-  }
-}
+
+      @media only screen and (max-width: 380px) {
+
+        .poster1{
+          height: 200px;
+          width:250px;
+        }
+
+
+
+        .poster2{
+          height: 200px;
+          width:250px;
+        }
+
+      }
+
+
+
+
+
+
+
 
 
 </style>
@@ -381,8 +387,10 @@ margin: 10px;
 
 
 
-
     <div class="event2">
+      <div>
+        <img class="poster2" src= "py.png">
+      </div>
      <div class="event2-text">
         <h2>  PYTHON WORKSHOP</h2>
        <div class="downgreen">
@@ -392,10 +400,6 @@ margin: 10px;
         <h3> TOP 3 WINNERS WILL GET RS7000 CASH PRIZE AND A WINNING CERTIFICATE. </h3>
        </div>
      </div>
-       <div>
-         <img class="poster2" src= "py.png">
-       </div>
-
     </div>
 
 
@@ -420,18 +424,25 @@ margin: 10px;
 
 
 
-       <div class="event2">
-          <div class="event2-text">
-           <h2>  EXCEL WORKSHOP</h2>
-          <div class="downgreen">
-           <h3>  DATE : 26 SEP, 2021</h3>
-           <h3> Hands-on practical application of Javascript and some mini events with exciting rewards</h3>
-           <h3> PARTICIPATION CERTIFICATES</h3>
-           <h3> TOP 3 WINNERS WILL GET RS7000 CASH PRIZE AND A WINNING CERTIFICATE. </h3>
-          </div>
-          </div>
-           <img class="poster2" src= "excel.png">
+      <div class="event2">
+        <div>
+          <img class="poster2" src= "excel.png">
         </div>
+       <div class="event2-text">
+          <h2>  EXCEL WORKSHOP</h2>
+         <div class="downgreen">
+          <h3>  DATE : 26 SEP, 2021</h3>
+          <h3> Hands-on practical application of Javascript and some mini events with exciting rewards</h3>
+          <h3> PARTICIPATION CERTIFICATES</h3>
+          <h3> TOP 3 WINNERS WILL GET RS7000 CASH PRIZE AND A WINNING CERTIFICATE. </h3>
+         </div>
+       </div>
+
+
+     </div>
+
+
+
     <br><br><br><br><br><br>
 
 
@@ -460,16 +471,18 @@ margin: 10px;
 
       <div class="past2">
         <div class="event2">
-           <div class="event2-text">
-            <h2>  REACT WORKSHOP</h2>
-          <div class="downgreen">
+          <div>
+            <img class="poster2" src= "py.png">
+          </div>
+         <div class="event2-text">
+            <h2>  PYTHON WORKSHOP</h2>
+           <div class="downgreen">
             <h3>  DATE : 26 SEP, 2021</h3>
             <h3> Hands-on practical application of Javascript and some mini events with exciting rewards</h3>
             <h3> PARTICIPATION CERTIFICATES</h3>
             <h3> TOP 3 WINNERS WILL GET RS7000 CASH PRIZE AND A WINNING CERTIFICATE. </h3>
-          </div>
            </div>
-            <img src= "react.png">
+         </div>
         </div>
       </div>
 
