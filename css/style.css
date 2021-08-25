@@ -121,7 +121,7 @@ color: white;
     background: white;
     width: 100%;
     z-index: -1;
-    transform: skewY(-11deg);
+    transform: skewY(-16deg);
     height: 600px;
 }
 
@@ -131,7 +131,7 @@ color: white;
     background: white;
     width: 100%;
     z-index: -1;
-    transform: skewY(-11deg);
+    transform: skewY(-16deg);
     height: 120px;
 }
 
@@ -141,7 +141,7 @@ color: white;
     z-index: 2;
 }
 .mission-text-content{
-    padding: 25px 150px 50px 150px;
+    padding: 20px 150px 50px 150px;
 }
 
 .mission-heading{
@@ -254,6 +254,30 @@ margin: 10px;
 
 
 /*Responsive Code*/
+@media only screen and (min-width: 840px) and (max-width: 950px) {
+    .white-skew-2 {
+        margin-top: -194px;
+        height: 203px;
+    }
+    .white-skew {
+        
+        top: 455px;
+    }
+      
+}   
+
+@media only screen and (min-width: 430px) and (max-width: 836px) {
+    .white-skew-2 {
+        margin-top: -184px;
+        height: 253px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .mission-text-content{
+        padding: 20px 50px 50px 50px;
+    }
+}
 @media only screen and (max-width: 836px) {
 
     .navbar{
