@@ -7,178 +7,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="owl.carousel.min.css">
   <link rel="stylesheet" href="owl.theme.default.min.css">
-
-
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-    }
-    *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    /* ------------------topmost heading------------- */
-    .event-heading{
-      text-align: center;
-    }
-
-    .heading1 {
-      text-align: center;
-    }
-
-    .heading2 {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    /* -----------------------event1---------------- */
-    .event1 {
-      display: flex;
-      /* flex-wrap: wrap; */
-      height: fit-content;
-      width: 95%;
-      align-items: center;
-      justify-content: space-between;
-      background-color: #C5E4F9;
-      color: #273746;
-      border-radius: 50px 0px 50px 0px;
-      padding: 20px;
-      margin-bottom: 20px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .event1-text {
-      width: 70%;
-    }
-    .event1-text p:first-child{
-      font-weight: bolder;
-    }
-    .downblue {
-      margin-top: 20px;
-    }
-    .downblue p{
-      margin-top: 5px;
-      margin-bottom: 10px;
-    }
-
-    .poster1 {
-      height: auto;
-      max-height: 200px;
-      align-items: center;
-      border-radius: 20px;
-    }
-
-    /* --------------------------event2------------------- */
-    .event2 {
-      display: flex;
-      flex-direction: row-reverse;
-      /* height: 300px; */
-      width: 95%;
-      align-items: center;
-      justify-content: space-between;
-      background-color: #C4F9BD;
-      color: #273746;
-      border-radius: 0px 50px 0px 50px;
-      padding: 20px;
-      margin-bottom: 20px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .event2-text {
-      width: 70%;
-    }
-    .event2-text p:first-child{
-      font-weight: bolder;
-    }
-
-    .poster2 {
-      height: auto;
-      max-height: 200px;
-      border-radius: 20px;
-      align-items: center;
-    }
-
-
-    /* ----------------PAST EVENTS HEADING-------------- */
-
-    .heading3 {
-      text-align: center;
-    }
-
-    /* ------------------------past1 opacity------------- */
-    .past1,.past2, .past3 {
-      opacity: 0.9;
-    }
-
-
-
-    @media only screen and (max-width: 785px) {
-      .event1-text h2 {
-        text-align: center;
-      }
-
-      .event1 {
-        flex-direction: column;
-      }
-
-      .event1-text {
-        width: 100%;
-      }
-
-      .event2-text h2 {
-        text-align: center;
-      }
-
-      .event2 {
-        flex-direction: column;
-      }
-
-      .event2-text {
-        width: 100%;
-      }
-
-    }
-    @media only screen and (max-width: 410px) {
-      .event1 {
-        width: 90%;
-      }
-      .poster1 {
-        height: 200px;
-        width: 300px;
-      }
-      .poster2 {
-        height: 200px;
-        width: 300px;
-      }
-
-    }
-    @media only screen and (max-width: 380px) {
-      .poster1 {
-        height: 200px;
-        width: 250px;
-      }
-      .poster2 {
-        height: 200px;
-        width: 250px;
-      }
-    }
-    @media only screen and (max-width: 310px) {
-      .poster1 {
-        height: 200px;
-        width: 230px;
-      }
-
-      .poster2 {
-        height: 200px;
-        width: 230px;
-      }
-    }
-  </style>
 
 
 </head>
@@ -187,7 +18,20 @@
 
 
   <div class="topbar">
-
+    <div class="navbar">
+      <div onclick="location.href='/'" class="nav-heading-container cursorPointer">
+          <img class="csi-logo" src="img/csi-logo.png" alt="krmu-logo">
+          <h3 class="nav-heading">CSI KRMU</h3>
+      </div>
+      <div class="nav-items">
+          <a href="#" class="nav-links"> Upcoming Events</a>
+          <a href="#" class="nav-links"> Contact Us </a>
+          <a href="#" class="nav-links">Past Events</a>
+      </div>
+      <div class="blog-btn-div">
+          <button class="blog-button btn-animation">BLOGS</button>
+      </div>
+  </div>
 
     <h2 class="heading1"> UPCOMING EVENTS</h2>
     <h2 class="heading2"> PRIZES AND CERTIFICATES </h2>
@@ -293,7 +137,7 @@
           </div>
         </div>
       </div>
-
+    </div>
 
 
       <div class="past2">
@@ -329,8 +173,42 @@
               <p> PARTICIPATION CERTIFICATES</p>
               <p> TOP 3 WINNERS WILL GET RS7000 CASH PRIZE AND A WINNING CERTIFICATE. </p>
             </div>
-          </div>
+          </div>  
         </div>
+      </div>
+
+      <div class="footer">
+
+        <div class="left-footer">
+            <img src="img/csi-logo.png" alt="csi-logo">
+            <h2>COMPUTER SOCIETY OF INDIA</h2>
+            <h2>KRMU CHAPTER</h2>
+        </div>
+
+
+        <div class="right-footer">
+
+            <div class="useful-links">
+                <h2>USEFUL LINKS</h2>
+                <a href="#">PAST EVENTS</a>
+                <a href="#">PRIZES AND CERTIFICATES</a>
+                <a href="#">ABOUT US</a>
+            </div>
+
+            <div class="socials">
+                <img src="img/instagram (1).png" alt="">
+                <img src="img/facebook (1).png" alt="">
+                <img src="img/linkedin (1).png" alt="">
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    </div>
+      
 </body>
 
 </html>

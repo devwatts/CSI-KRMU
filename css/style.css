@@ -14,6 +14,9 @@ body{
 /*background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1) 100%);*/
 }
 
+.cursorPointer{
+    cursor: pointer !important;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -229,6 +232,7 @@ margin-bottom: 20px;
     text-decoration: none;
     color: black;
     margin: 10px;
+    font-weight: bolder;
 }
 .socials img{
 margin: 10px;
@@ -238,14 +242,14 @@ margin: 10px;
 
 /*Animations*/
 .btn-animation{
-    transition: all ease 0.5s;
+    transition: background-color 0.5s, transform 0.5s ease ;
     cursor: pointer;
 }
 .btn-animation:hover{
  /*border: 1px solid #2D81FF;*/
  transform: scale(1.1);
  box-shadow: inset 0px 0px 0px 3px #2e5f9b;
- background-color:transparent;
+ background-color:white;
  color: black;
 }
 /*Animations end*/
@@ -418,3 +422,166 @@ margin: 10px;
 }
 }
 /*Responsive Code ends*/
+
+
+/*sagar code*/
+
+    /* ------------------topmost heading------------- */
+    .event-heading{
+        text-align: center;
+      }
+  
+      .heading1 {
+        text-align: center;
+        color: white;
+      }
+  
+      .heading2 {
+          color: white;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+  
+      /* -----------------------event1---------------- */
+      .event1 {
+        display: flex;
+        /* flex-wrap: wrap; */
+        height: fit-content;
+        width: 95%;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #C5E4F9;
+        color: #273746;
+        border-radius: 50px 0px 50px 0px;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .event1-text {
+        width: 70%;
+      }
+      .event1-text p:first-child{
+        font-weight: bolder;
+      }
+      .downblue {
+        margin-top: 20px;
+      }
+      .downblue p{
+        margin-top: 5px;
+        margin-bottom: 10px;
+      }
+  
+      .poster1 {
+        height: auto;
+        max-height: 200px;
+        align-items: center;
+        border-radius: 20px;
+      }
+  
+      /* --------------------------event2------------------- */
+      .event2 {
+        display: flex;
+        flex-direction: row-reverse;
+        /* height: 300px; */
+        width: 95%;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #C4F9BD;
+        color: #273746;
+        border-radius: 0px 50px 0px 50px;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  
+      .event2-text {
+        width: 70%;
+      }
+      .event2-text p:first-child{
+        font-weight: bolder;
+      }
+  
+      .poster2 {
+        height: auto;
+        max-height: 200px;
+        border-radius: 20px;
+        align-items: center;
+      }
+  
+  
+      /* ----------------PAST EVENTS HEADING-------------- */
+  
+      .heading3 {
+        text-align: center;
+      }
+  
+      /* ------------------------past1 opacity------------- */
+      .past1,.past2, .past3 {
+        opacity: 0.9;
+      }
+  
+  
+  
+      @media only screen and (max-width: 785px) {
+        .event1-text h2 {
+          text-align: center;
+        }
+  
+        .event1 {
+          flex-direction: column;
+        }
+  
+        .event1-text {
+          width: 100%;
+        }
+  
+        .event2-text h2 {
+          text-align: center;
+        }
+  
+        .event2 {
+          flex-direction: column;
+        }
+  
+        .event2-text {
+          width: 100%;
+        }
+  
+      }
+      @media only screen and (max-width: 410px) {
+        .event1 {
+          width: 90%;
+        }
+        .poster1 {
+          height: 200px;
+          width: 300px;
+        }
+        .poster2 {
+          height: 200px;
+          width: 300px;
+        }
+  
+      }
+      @media only screen and (max-width: 380px) {
+        .poster1 {
+          height: 200px;
+          width: 250px;
+        }
+        .poster2 {
+          height: 200px;
+          width: 250px;
+        }
+      }
+      @media only screen and (max-width: 310px) {
+        .poster1 {
+          height: 200px;
+          width: 230px;
+        }
+  
+        .poster2 {
+          height: 200px;
+          width: 230px;
+        }
+      }
