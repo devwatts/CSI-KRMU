@@ -117,7 +117,7 @@ color: white;
 }
 .white-skew{
     position: absolute;
-    top: 380px;
+    top: 400px;
     background: white;
     width: 100%;
     z-index: -1;
@@ -260,15 +260,16 @@ margin: 10px;
         height: 203px;
     }
     .white-skew {
-        
         top: 455px;
     }
       
 }   
 
-@media only screen and (min-width: 430px) and (max-width: 836px) {
+
+
+@media only screen and (min-width: 300px) and (max-width: 836px) {
     .white-skew-2 {
-        margin-top: -184px;
+        margin-top: -115px;
         height: 253px;
     }
 }
@@ -300,11 +301,6 @@ margin: 10px;
     .blog-btn-div{
             order: 2;
     }
-
-    .blog-btn-div button{
-
-    }
-
     .about-krmu{
         flex-direction: column;
         padding: 20px;
