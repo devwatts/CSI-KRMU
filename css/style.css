@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
     padding: 15px;
     align-items: center;
-    transition: transform 0.5s ease;
+    transition: transform 0.4s ease;
     transform: translateY(-200px);
 }
 
@@ -311,6 +311,9 @@ body {
     }
     .container-top{
         flex-direction: column;
+    }
+    .container-top img{
+        border-radius: 10px 10px 0 0 !important;
     }
     .container-top img{
         width: 100% !important;

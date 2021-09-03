@@ -1,0 +1,1 @@
+document.getElementById('navbar').setAttribute("style","transform:translateY(0px);")
