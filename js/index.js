@@ -31,4 +31,28 @@ responsive:{
         loop:false
     }
 }
-})
+});
+setTimeout(function(){
+    document.getElementById('navbar').setAttribute("style","transform:translateY(0px);")
+    }, 50);
+
+    setTimeout(function(){
+        document.getElementById('about-krmu-text').setAttribute("style","transform:translateX(0px);")
+        }, 50);
+
+        setTimeout(function(){
+            document.getElementById('about-krmu-image').setAttribute("style","transform:translateX(0px);")
+            }, 50);
+
+window.onscroll = function(){
+    //console.log(window.scrollY);
+    //console.log(document.getElementById('upcoming-events').scrollHeight);
+
+    var ans = ((window.scrollY/document.getElementById('our-mission').offsetTop)+0.2).toFixed(2);
+   // console.log(ans);
+    document.getElementById('our-mission').style.opacity = ans;
+
+    var ans2 = ((window.scrollY/document.getElementById('upcoming-events').offsetTop)+0.2).toFixed(2);
+    document.getElementById('upcoming-events').style.opacity = ans2;
+    //console.log(ans2)
+  }

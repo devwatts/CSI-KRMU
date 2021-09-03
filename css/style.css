@@ -22,7 +22,8 @@ body {
     justify-content: space-between;
     padding: 15px;
     align-items: center;
-
+    transition: transform 0.5s ease;
+    transform: translateY(-200px);
 }
 
 .nav-heading-container {
@@ -88,6 +89,8 @@ body {
 
 .about-text-content {
     width: 40%;
+    transition: transform 0.5s ease;
+    transform: translateX(-1000px);
 }
 
 .about-text-content h2 {
@@ -109,6 +112,8 @@ body {
 .about-image-content {
     width: 50%;
     z-index: 2;
+    transition: transform 0.5s ease;
+    transform: translateX(1000px);
 }
 
 .main-carousel {
@@ -131,7 +136,7 @@ body {
 .white-skew {
     position: absolute;
     top: 400px;
-    background: white;
+    background: rgb(245, 245, 245);
     width: 100%;
     z-index: -1;
     transform: skewY(-16deg);
@@ -141,7 +146,7 @@ body {
 .white-skew-2 {
     position: absolute;
     margin-top: -40px;
-    background: white;
+    background: rgb(245, 245, 245);
     width: 100%;
     z-index: -1;
     transform: skewY(-16deg);
@@ -150,7 +155,7 @@ body {
 
 .mission-container {
     margin: 25px 0 25px 0;
-
+    
     z-index: 2;
 }
 
@@ -177,7 +182,6 @@ body {
 
 .mission-text {
     width: 70%;
-    background-color: white;
     padding: 25px;
     border-radius: 20px;
 }
@@ -296,11 +300,21 @@ body {
         margin-top: -115px;
         height: 253px;
     }
+    .mission-container{
+        background: rgb(245, 245, 245);
+    }
 }
 
 @media only screen and (max-width: 950px) {
     .mission-text-content {
         padding: 20px 50px 50px 50px;
+    }
+    .container-top{
+        flex-direction: column;
+    }
+    .container-top img{
+        width: 100% !important;
+        height: unset !important;
     }
 }
 
@@ -375,7 +389,7 @@ body {
 
     .mission-text-content {
         padding: 20px;
-        background: white;
+        background: rgb(245, 245, 245);
 
     }
 
@@ -653,13 +667,14 @@ body {
     display: flex;
     align-items: center;
     margin: 20px 80px;
-    background-color: antiquewhite;
-
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
 }
 
 .container-top img {
     width: 300px;
     height: 250px;
+    border-radius: 10px 0 0 10px;
 }
 
 .main-content-top {
@@ -675,13 +690,14 @@ body {
     position: relative;
     width: 350px;
     height: 300px;
-
+    margin: 10px;
 }
 
 .blog-container img {
     opacity: 1;
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 
 .main-content {
@@ -694,6 +710,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+    border-radius: 10px;
 }
 
 .main-content a {
@@ -717,6 +734,19 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 /*satya code ends*/
+
+
+
+
+/*ANIMATION SCROLL*/
+#our-mission{
+    opacity: 0;
+}
+#upcoming-events{
+    opacity: 0;
+}
+/*ANIMATION SCROLL ENDS*/
