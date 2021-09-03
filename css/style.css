@@ -12,6 +12,9 @@ body {
     background: linear-gradient(116deg, #6772e5 0%, #6772e5 14%, #4de7e7 100%);
     /*background: radial-gradient(circle, rgba(45,129,255,0.61) 0%, rgba(249,248,248,1) 100%);*/
 }
+.topbar{
+    overflow-x: hidden
+}
 
 .cursorPointer {
     cursor: pointer !important;
@@ -748,6 +751,9 @@ body {
 /*ANIMATION SCROLL*/
 #our-mission{
     opacity: 0;
+}
+#upcoming-events{
+    opacity: 0;   
 }
 
 /*ANIMATION SCROLL ENDS*/
