@@ -314,6 +314,7 @@ body {
     }
     .container-top{
         flex-direction: column;
+        margin: 20px 10px !important;
     }
     .container-top img{
         border-radius: 10px 10px 0 0 !important;
