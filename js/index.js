@@ -52,7 +52,6 @@ window.onscroll = function(){
    // console.log(ans);
     document.getElementById('our-mission').style.opacity = ans;
 
-    var ans2 = ((window.scrollY/document.getElementById('upcoming-events').offsetTop)+0.2).toFixed(2);
-    document.getElementById('upcoming-events').style.opacity = ans2;
+  
     //console.log(ans2)
   }
